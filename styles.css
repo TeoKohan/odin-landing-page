@@ -1,0 +1,259 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* General Styling */
+
+.content {
+    padding-left:  14%;
+    padding-right: 14%;
+    padding-bottom: 128px;
+}
+
+/* Header Styling */
+
+.header-block {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+
+    padding-top: 16px;
+    background-color: #203530;
+}
+
+header {
+    align-self: stretch;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header img {
+    width:  24px;
+    height: 24px;
+}
+
+header .logo div {
+    font-size: 24px;
+    font-weight: bolder;
+    color:white;
+}
+
+header .links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Hero Text Styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+.hero .text {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 500px;
+    max-width: 700px;
+    max-height: 300px;
+    gap: 16px;
+}
+
+.hero .text h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color:#F9FAF8;
+}
+
+.hero .text div {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.hero .text button {
+    width: 124px;
+    height: 36px;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #008b6d;
+    border: none;
+}
+
+.hero .image {
+    flex: 1;
+
+    min-width: 420px;
+    max-width: 700px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.hero .image img {
+    width: 100%;
+}
+
+/* Facts Styling */
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(243, 243, 243);
+}
+
+.fact .text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #203530;
+    margin: 64px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+    width: 166px;
+}
+
+.card .text {
+    font-size: 16px;
+    font-weight:400;
+    color: #666666;
+    text-align: center;
+    margin: 0px;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+    border: 3px solid #008b6d ;
+}
+
+/* Quote Styling */
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 128px;
+    background-color: #e5e5e5e5;
+}
+
+.quote-block .quote-block-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    color: #203530;
+}
+
+.quote {
+    align-self: flex-start;
+
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+    align-self: flex-end;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Spur Styling */
+
+.spur-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 128px;
+}
+
+.spur-block .spur {
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    padding: 50px 128px;
+    border-radius: 10px;
+    background-color: #008b6d;
+}
+
+.spur .text .top {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eeeeee;
+    background-color: #008b6d;
+}
+
+.spur .text .bottom {
+    font-size: 18px;
+    color: #eeeeee;
+    background-color: #008b6d;
+}
+
+.spur button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #008b6d;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0px 32px;
+    min-height: 0px;
+    height: 35px;
+}
+
+/* Footer Styling */
+
+footer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 32px;
+
+    background-color: #203530;
+}
+
+footer .text {
+    font-size: 18px;
+    color: white;
+}
+
+footer a {
+    font-size: 16px;
+    color: #008b6d;
+}
